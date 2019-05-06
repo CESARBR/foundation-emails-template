@@ -5,7 +5,7 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #ffffff !important;
 }
 
 .container.header {
@@ -18,16 +18,35 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #FAFAFA;
 }
 
 .header .columns {
   padding-bottom: 0;
 }
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
+.header .app-brand th {
+  text-align: right;
+}
+
+.header .app-brand img {
+  display: inline-block;
+  height: auto;
+  margin: 10px 16px 0 0;
+  width: 45px;
+}
+
+.header .app-name {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.header .mail-name {
+  color: $primary-color;
+  margin: 3px 0 0;
+  font-size: 32px;
+  font-weight: 200;
+  text-align: center;
 }
 
 .header .wrapper-inner {
@@ -38,22 +57,72 @@ html,
   background: transparent;
 }
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
+// Content
+
+.container.content {
+  background: #fff;
 }
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
+.content .callout p {
+  font-size: 14px;
 }
 
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
+.content .callout p strong {
+  font-weight: 500;
 }
 
-.wrapper.secondary {
-  background: #f3f3f3;
+.content .action {
+  margin: 0 auto;
+}
+
+.content .action td,
+.content .action td:hover {
+  background: none;
+  border: none;
+}
+
+.content .action a {
+  background: $primary-color;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+// Foooter
+
+.footer {
+  border-top: 1px solid #F2F2F2;
+}
+
+.footer .container {
+  background: #fff;
+}
+
+.footer .text-center {
+  color: #808080;
+  font-size: 12px;
+  padding: 24px 0;
+}
+
+
+// PunchMonitor
+
+.punch-monitor.header .app-brand th {
+  text-align: center;
+}
+
+.punch-monitor.header .app-brand img {
+  margin: 0;
+  vertical-align: -10px;
+}
+
+.punch-monitor.header .app-brand h1 {
+  display: inline-block;
+}
+
+.punch-monitor.header .mail-name {
+  color: #83CDC6;
+}
+
+.punch-monitor.content .action a {
+  background: #83CDC6;
 }

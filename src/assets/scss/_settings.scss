@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #F97C06;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -24,7 +24,7 @@ $alert-color: #ec5840;
 $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
+$black: #707070;
 $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 580px;
@@ -55,7 +55,7 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
-$body-font-family: Helvetica, Arial, sans-serif;
+$body-font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.3;
@@ -118,15 +118,15 @@ $button-rounded: $global-rounded;
 // 6. Callout
 // ----------
 
-$callout-background: $white;
+$callout-background: #FAFAFA;
 $callout-background-fade: 85%;
-$callout-padding: 10px;
+$callout-padding: 30px 45px;
 $callout-margin-bottom: $global-margin;
-$callout-border: 1px solid darken($callout-background, 20%);
-$callout-border-secondary: 1px solid darken($secondary-color, 20%);
-$callout-border-success: 1px solid darken($success-color, 20%);
-$callout-border-warning: 1px solid darken($warning-color, 20%);
-$callout-border-alert: 1px solid darken($alert-color, 20%);
+$callout-border: none;
+$callout-border-secondary: $callout-border;
+$callout-border-success: $callout-border;
+$callout-border-warning: $callout-border;
+$callout-border-alert: $callout-border;
 
 // 7. Menu
 // -------
